@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_btn1"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:weightSum="10">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listItemRequestTime"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/listItemRequestDate"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/listItemRequestType"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/listItemRequestAmount"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/listItemRequestContent"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp" />
+             </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

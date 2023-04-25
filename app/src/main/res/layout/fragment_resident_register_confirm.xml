@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.resident.ResidentRegisterConfirmFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmNameLabel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="100dp"
+            android:text="Name"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fmResidentRegisterConfirmNameLabel"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirmNameLabel" />
+
+
+
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirm_DestinationLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Destination"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmNameLabel"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmNameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmName" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmDestination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmName"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmName"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirm_DestinationLabel" />
+
+
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirm_DescriptionLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Description"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirm_DestinationLabel"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirm_DestinationLabel"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmDestination" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmDestination"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmDestination"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirm_DescriptionLabel" />
+
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmStartDateLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/label_start_date"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirm_DescriptionLabel"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirm_DescriptionLabel"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmDescription" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmStartDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmDescription"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmDescription"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirmStartDateLabel" />
+
+
+
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirm_NoteLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Note"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmStartDateLabel"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmStartDateLabel"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmStartDate" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmStartDate"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmStartDate"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirm_NoteLabel" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmOwnerLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Risk"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirm_NoteLabel"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirm_NoteLabel"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmNote" />
+
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmOwner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmNote"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmNote"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirmOwnerLabel" />
+
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmParticipants"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmOwner"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmOwner"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirmOwnerLabel" />
+
+        <TextView
+            android:id="@+id/fmResidentRegisterConfirmParticipantsLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Participants"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmOwnerLabel"
+            app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmOwnerLabel"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmOwner" />
+
+        <Button
+            android:id="@+id/fmResidentRegisterConfirmButtonCancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/green"
+            android:text="@string/label_cancel"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmNameLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmOwner" />
+
+        <Button
+            android:id="@+id/fmResidentRegisterConfirmButtonConfirm"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/green"
+            android:text="@string/label_confirm"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/fmResidentRegisterConfirmButtonCancel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fmResidentRegisterConfirmButtonCancel"
+            app:layout_constraintTop_toTopOf="@+id/fmResidentRegisterConfirmButtonCancel" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="#2196F3"
+            android:padding="15dp"
+            android:text="@string/label_confirmation"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

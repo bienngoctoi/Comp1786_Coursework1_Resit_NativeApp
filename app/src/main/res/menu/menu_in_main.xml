@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/residentListFragment"
+        android:icon="@drawable/iconsdiary100"
+        android:title="List Trip"
+        />
+    <item
+        android:id="@+id/residentRegisterFragment"
+        android:icon="@drawable/iconsadd"
+        android:title=" Create New Trip" />
+    <item
+        android:id="@+id/aboutUsFragment"
+        android:icon="@drawable/iconscontact"
+        android:title="Contact" />
+</menu>
