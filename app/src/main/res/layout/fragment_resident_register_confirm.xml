@@ -64,7 +64,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Description"
+            android:text="Transport"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirm_DestinationLabel"
             app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirm_DestinationLabel"
@@ -110,7 +110,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Note"
+            android:text="Description"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmStartDateLabel"
             app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmStartDateLabel"
@@ -163,10 +163,10 @@
 
         <TextView
             android:id="@+id/fmResidentRegisterConfirmParticipantsLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="102dp"
+            android:layout_height="47dp"
             android:layout_marginTop="25dp"
-            android:text="Participants"
+            android:text="Total Cost of Trip"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmOwnerLabel"
             app:layout_constraintStart_toStartOf="@+id/fmResidentRegisterConfirmOwnerLabel"
@@ -176,13 +176,13 @@
             android:id="@+id/fmResidentRegisterConfirmButtonCancel"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="32dp"
             android:background="@color/green"
             android:text="@string/label_cancel"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="@+id/fmResidentRegisterConfirmNameLabel"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmOwner" />
+            app:layout_constraintTop_toBottomOf="@+id/fmResidentRegisterConfirmParticipants" />
 
         <Button
             android:id="@+id/fmResidentRegisterConfirmButtonConfirm"
