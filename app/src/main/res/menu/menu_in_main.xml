@@ -9,7 +9,7 @@
     <item
         android:id="@+id/residentRegisterFragment"
         android:icon="@drawable/iconsadd"
-        android:title=" Create New Trip" />
+        android:title="Add Trip" />
     <item
         android:id="@+id/aboutUsFragment"
         android:icon="@drawable/iconscontact"
